@@ -1,0 +1,6 @@
+.prettierrc
+package-lock.json
+req.md
+.env
+node_modules/
+src/

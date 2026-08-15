@@ -1,0 +1,45 @@
+{
+  "name": "backend---blogging-platform-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec tsx src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "seed": "tsx src/seeders/posts.seeder.ts"
+  },
+  "keywords": [],
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mochi-002/Blogging-Platform-API.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mochi-002/Blogging-Platform-API/issues"
+  },
+  "homepage": "https://github.com/mochi-002/Blogging-Platform-API#readme",
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/mongoose": "^5.11.96",
+    "@types/node": "^26.2.0",
+    "@types/swagger-jsdoc": "^6.0.4",
+    "@types/swagger-ui-express": "^4.1.8",
+    "nodemon": "^3.1.14",
+    "tsx": "^4.23.12",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "axios": "^1.19.0",
+    "chalk": "^6.0.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-async-handler": "^1.2.0",
+    "express-rate-limit": "^8.6.2",
+    "joi": "^18.2.3",
+    "mongoose": "^9.9.2",
+    "redis": "^6.2.1",
+    "swagger-jsdoc": "^6.3.0",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
